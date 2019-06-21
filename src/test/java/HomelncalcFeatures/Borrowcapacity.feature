@@ -15,7 +15,7 @@ Scenario: Verify the home loan borrowing capacity using  home loan calculator
 Scenario: Verify message is displayed to call customercare when entering one dollar as living expenses 
 
 	Given User selects personal details 
-	And   User enters one dollar as expense 
+	And   User enters one dollar as expense
 	Then  Click on Work out how much I could borrow 
 	And   User gets message to call the customer care number
 	Then  Close Browser

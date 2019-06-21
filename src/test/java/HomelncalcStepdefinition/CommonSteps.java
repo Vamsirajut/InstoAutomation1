@@ -10,12 +10,7 @@ import Testbase.Testbase;
 
 public class CommonSteps {
 	
-	/*public static void clickNameInGrid(String expName) {
-		String xpath = "//a[text()='"+ expName +"']";
-		WebElement grid = driver.findElement(By.xpath(xpath));
-		grid.click();
-	}*/
-	
+		
 	public static void nominalWait() throws InterruptedException {
 		try {
 			Thread.sleep(5000);

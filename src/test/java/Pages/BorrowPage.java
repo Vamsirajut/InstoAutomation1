@@ -62,7 +62,7 @@ public class BorrowPage {
 	@FindBy(how = How.XPATH, using = "(//div/button[text()='Start over'])[1]")
 	public WebElement startover;
 
-	@FindBy(how = How.XPATH, using = "//span[@class=\"borrow__result__text__amount\"]")
+	@FindBy(how = How.XPATH, using = "//span[@class='borrow__error__text']")
 	public WebElement Onedollarexpenseerr;
 
 	public BorrowPage(WebDriver driver) {
@@ -126,13 +126,13 @@ public class BorrowPage {
 		LivingExp.sendKeys("1");
 	}
 
-	public void enterOneDollarerror() throws InterruptedException {
+	public void enterOneDollarmessage() throws InterruptedException {
 		cs.nominalWait();
 
 		if (Onedollarexpenseerr.getText().contains("Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on ")) {
-			System.out.println("warning message is displayed");
+			System.out.println("Call Customer care  message is displayed");
 		} else {
-			System.out.println("warning message is not displayed");
+			System.out.println("Call Customer care  message is not displayed");
 		}
 
 	}
@@ -161,7 +161,7 @@ public class BorrowPage {
 		if (calculatedAmnt.getText().contains("467,000")) {
 			System.out.println("Loan Amount is calculated as: 467,000");
 		} else {
-			System.out.println("Loan Amount is not calculated correctly.");
+			System.out.println("Loan Amount cant be displayed");
 		}
 
 	}
