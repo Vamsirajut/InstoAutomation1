@@ -1,0 +1,34 @@
+[0117/113353.213:ERROR:file_io_win.cc(170)] CreateFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir22152_18545\Crashpad\reports\cea5ed26-bfc2-4c56-98da-3926b3722bc4.dmp: The system cannot find the path specified. (0x3)
+[0117/113353.233:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0117/120426.649:ERROR:file_io_win.cc(170)] CreateFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir22152_18545\Crashpad\reports\517c9334-bf35-476a-839d-7cebd05ed7dd.dmp: The system cannot find the path specified. (0x3)
+[0117/120426.649:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0220/150827.919:ERROR:file_io_win.cc(170)] CreateFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir32496_9446\Crashpad\reports\945907b3-34b7-4b93-bfe3-ff8b4c73b617.dmp: The system cannot find the path specified. (0x3)
+[0220/150827.934:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0222/004808.745:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0222/004808.763:ERROR:exception_snapshot_win.cc(88)] thread ID 46976 not found in process
+[0223/190505.749:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir42404_32629\Crashpad\reports\c82bc41a-19f6-49dc-bd7c-91829c8a5a0d.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0225/102003.805:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir58032_12841\Crashpad\reports\b9f720fa-8a2c-45c7-ac77-1abed495baaf.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0225/102003.963:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0225/143752.148:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0404/115437.684:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0404/115502.216:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0404/115502.221:ERROR:exception_snapshot_win.cc(88)] thread ID 56008 not found in process
+[0404/115507.429:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir29064_20995\Crashpad\reports\f49d785d-e829-4bbc-a663-861436e5ba00.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0407/221030.429:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0521/155522.008:ERROR:process_info.cc(359)] UncheckedAllocate
+[0523/120621.333:ERROR:file_io_win.cc(170)] CreateFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir30180_22452\Crashpad\reports\88decc8f-5e02-4457-be12-fc8cc1a18568.dmp: The system cannot find the path specified. (0x3)
+[0523/120621.352:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0523/120641.935:ERROR:process_info.cc(359)] UncheckedAllocate
+[0523/120705.403:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0523/120705.403:ERROR:exception_snapshot_win.cc(98)] thread ID 12460 not found in process
+[0523/122032.707:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0523/122032.712:ERROR:exception_snapshot_win.cc(98)] thread ID 11776 not found in process
+[0523/122032.785:ERROR:file_io_win.cc(170)] CreateFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir22148_18608\Crashpad\reports\8f684f72-90ab-4f27-b14c-de3b7da897be.dmp: The system cannot find the path specified. (0x3)
+[0523/122032.785:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0523/122032.864:ERROR:file_io_win.cc(170)] CreateFile C:\Users\thotakv1\AppData\Local\Temp\scoped_dir22148_18608\Crashpad\reports\abcab377-30e7-4bfb-b42d-07cb93e0645a.dmp: The system cannot find the path specified. (0x3)
+[0523/122032.864:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0524/164638.731:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0524/164638.741:ERROR:exception_snapshot_win.cc(98)] thread ID 37260 not found in process
+[0524/164638.770:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0524/164638.773:ERROR:exception_snapshot_win.cc(98)] thread ID 30992 not found in process
+[0527/183241.774:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
